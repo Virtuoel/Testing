@@ -69,15 +69,16 @@ body:
   - type: textarea
     id: other_mods
     attributes:
-      label: Installed mods
-      description: What mods were you running at the time? (Make sure to include their version numbers, including this mod's version!)
-      placeholder: Put your full mod list here! (sometimes visible in the launcher's logs for easy copy-pasting)
+      label: Full list of installed mods
+      description: "What mods were you running at the time? (Make sure to include their version numbers, including the version of this mod!)
+      (Depending on which mod loader you're using and which launcher you start the game with, sometimes the launcher's logs contain the mod list which can easily be copied and pasted.)"
+      placeholder: Put your full mod list here!
     validations:
       required: true
   - type: textarea
     id: crash_logs
     attributes:
-      label: Full crash log contents (if any)
+      label: Full crash log contents (if you experienced a crash)
       description: "Crash log files are typically found within the `.minecraft/crash-reports/` folder in a file with a name similar to `crash-20xx-xx-xx_xx.xx.xx-client.txt`.\n
       If there are multiple, make sure to select the one that corresponds to when you crashed (possibly the most recent file).\n
       Please copy the full contents of the crash log and paste it under the `<p>` line below."
