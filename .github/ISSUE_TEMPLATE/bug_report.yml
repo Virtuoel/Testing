@@ -88,13 +88,13 @@ body:
       placeholder: Put your full mod list here!
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: had_crash
     attributes:
       label: Did the problem cause the game to crash?
       options:
-        - label: Yes. (paste crash report below)
-        - label: No.
+        - Yes. (paste crash report below)
+        - No.
     validations:
       required: true
   - type: textarea
