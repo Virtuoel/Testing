@@ -1,0 +1,80 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: [bug]
+assignees:
+  - Virtuoel
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remember to include a crash log if you experience a game crash!
+  - type: dropdown
+    id: mc_version
+    attributes:
+      label: What Minecraft version(s) did you have this problem on?
+      multiple: true
+      options:
+        - 1.14.4
+        - 1.15.2
+        - 1.16.5
+        - 1.17.1
+        - Other (specify below)
+    validations:
+      required: true
+  - type: input
+    id: other_mc_version
+    attributes:
+      label: Minecraft Version (Extra information)
+      description: Fill in if you selected `Other` above
+      placeholder: (e.g. 1.17 Snapshot 21w21a, e.g. 1.18 Experimental Snapshot 1)
+    validations:
+      required: true
+  - type: dropdown
+    id: mod_loader
+    attributes:
+      label: Mod Loader
+      description: What mod loader were you using?
+      options:
+        - Fabric
+        - Forge
+    validations:
+      required: true
+  - type: input
+    id: mod_loader_version
+    attributes:
+      label: Mod loader version
+      description: What Fabric Loader version (not Fabric API) or Forge version were you using?
+      placeholder: (e.g. Fabric Loader 0.11.6, e.g. Forge 36.1.62)
+    validations:
+      required: true
+  - type: input
+    id: fabric_api_version
+    attributes:
+      label: Fabric API version
+      description: What Fabric API version (not Fabric Loader) were you using? (Fill in if you selected the Fabric mod loader and this mod requires Fabric API)
+      placeholder: (e.g. Fabric API 0.37.0)
+    validations:
+      required: false
+  - type: textarea
+    id: the_problem
+    attributes:
+      label: What went wrong?
+      description: What did you expect to happen, and what issue happened instead? (Crash logs go below)
+      placeholder: Tell us what you saw!
+    validations:
+      required: true
+  - type: textarea
+    id: other_mods
+    attributes:
+      label: Installed mods:
+      description: What other mods were you running at the time? (Make sure to include their version numbers!)
+      placeholder: Put your full mod list here!
+      value: "My mods folder was empty"
+    validations:
+      required: true
+  - type: textarea
+    id: crash_logs
+    attributes:
+      label: Crash log output (if any)
+      description: Please copy and paste any relevant log output. This is typically found within the `.minecraft/crash-reports/` folder in a file named like `crash-20xx-xx-xx_xx.xx.xx-client.txt`.
