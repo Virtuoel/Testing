@@ -52,7 +52,7 @@ body:
     id: fabric_api_version
     attributes:
       label: Fabric API version
-      description: What Fabric API version (not Fabric Loader) were you using? (Fill in if you selected the Fabric mod loader and this mod requires Fabric API)
+      description: What Fabric API version (not Fabric Loader) were you using?\n(Fill in if you selected the Fabric mod loader and this mod requires Fabric API)
       placeholder: (e.g. Fabric API 0.37.0)
     validations:
       required: false
@@ -60,7 +60,7 @@ body:
     id: the_problem
     attributes:
       label: What went wrong?
-      description: What did you expect to happen, and what issue happened instead? (Crash logs go below)
+      description: What did you expect to happen, and what issue happened instead? (Crash logs don't go in this box)
       placeholder: Tell us what you saw!
     validations:
       required: true
@@ -78,3 +78,4 @@ body:
     attributes:
       label: Crash log output (if any)
       description: Please copy and paste any relevant log output. This is typically found within the `.minecraft/crash-reports/` folder in a file named similar to `crash-20xx-xx-xx_xx.xx.xx-client.txt`.
+      value: "<details>\n"
