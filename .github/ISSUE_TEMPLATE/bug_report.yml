@@ -67,7 +67,7 @@ body:
   - type: textarea
     id: other_mods
     attributes:
-      label: Installed mods:
+      label: Installed mods
       description: What other mods were you running at the time? (Make sure to include their version numbers!)
       placeholder: Put your full mod list here!
       value: "My mods folder was empty"
