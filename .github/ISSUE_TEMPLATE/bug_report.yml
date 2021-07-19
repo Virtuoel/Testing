@@ -59,7 +59,8 @@ body:
       required: false
   - type: dropdown
     id: environment
-      label: "In what environment did the problem occur?"
+    attributes:
+      label: In what environment did the problem occur?
       options:
         - My singleplayer world
         - My singleplayer world that I opened to LAN
