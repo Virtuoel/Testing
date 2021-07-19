@@ -52,8 +52,8 @@ body:
     id: fabric_api_version
     attributes:
       label: Fabric API version
-      description: What Fabric API version (not Fabric Loader) were you using?
-      (Fill in if you selected the Fabric mod loader and this mod requires Fabric API)
+      description: "What Fabric API version (not Fabric Loader) were you using?
+      (Fill in if you selected the Fabric mod loader and this mod requires Fabric API)"
       placeholder: (e.g. Fabric API 0.37.0)
     validations:
       required: false
