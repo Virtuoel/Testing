@@ -25,11 +25,11 @@ body:
   - type: input
     id: other_mc_version
     attributes:
-      label: Minecraft Version (Extra information)
+      label: Minecraft Version (if not available above)
       description: Fill in if you selected `Other` above
       placeholder: (e.g. 1.17 Snapshot 21w21a, e.g. 1.18 Experimental Snapshot 1)
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: mod_loader
     attributes:
@@ -77,4 +77,4 @@ body:
     id: crash_logs
     attributes:
       label: Crash log output (if any)
-      description: Please copy and paste any relevant log output. This is typically found within the `.minecraft/crash-reports/` folder in a file named like `crash-20xx-xx-xx_xx.xx.xx-client.txt`.
+      description: Please copy and paste any relevant log output. This is typically found within the `.minecraft/crash-reports/` folder in a file named similar to `crash-20xx-xx-xx_xx.xx.xx-client.txt`.
