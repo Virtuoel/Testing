@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Remember to include a crash log if you experience a game crash!
+        Remember to include a crash log if this bug caused the game to crash!
   - type: dropdown
     id: mc_version
     attributes:
@@ -26,7 +26,7 @@ body:
   - type: input
     id: other_mc_version
     attributes:
-      label: Minecraft Version (if not available above)
+      label: Minecraft version (if not in the above list)
       description: Fill in if you selected `Other` above
       placeholder: (e.g. 1.17 Snapshot 21w21a, e.g. 1.18 Experimental Snapshot 1)
     validations:
@@ -34,7 +34,7 @@ body:
   - type: dropdown
     id: mod_loader
     attributes:
-      label: Mod Loader
+      label: Mod loader
       description: What mod loader were you using?
       options:
         - Fabric
@@ -61,8 +61,8 @@ body:
   - type: textarea
     id: the_problem
     attributes:
-      label: What went wrong?
-      description: What did you expect to happen, and what happened instead? (Crash logs don't go in this box)
+      label: What went wrong? (Crash logs don't go in this box)
+      description: What did you expect to happen, and what happened instead?
       placeholder: Tell us what you saw!
     validations:
       required: true
@@ -77,7 +77,7 @@ body:
   - type: textarea
     id: crash_logs
     attributes:
-      label: Full crash log output (if any)
+      label: Full crash log contents (if any)
       description: "Crash log files are typically found within the `.minecraft/crash-reports/` folder in a file with a name similar to `crash-20xx-xx-xx_xx.xx.xx-client.txt`.\n
       If there are multiple, make sure to select the one that corresponds to when you crashed (possibly the most recent file).\n
       Please copy the full contents of the crash log and paste it under the `<p>` line below."
