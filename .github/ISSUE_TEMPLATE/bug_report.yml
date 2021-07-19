@@ -52,7 +52,7 @@ body:
     id: fabric_api_version
     attributes:
       label: Fabric API version
-      description: "What Fabric API version (not Fabric Loader) were you using?
+      description: "What Fabric API version (not Fabric Loader) were you using?\n
       (Fill in if you selected the Fabric mod loader and this mod requires Fabric API)"
       placeholder: (e.g. Fabric API 0.37.0)
     validations:
@@ -78,8 +78,8 @@ body:
     id: crash_logs
     attributes:
       label: Full crash log output (if any)
-      description: "Please copy and paste any crash log output under the `<details>` line below.
-      Crash log files are typically found within the `.minecraft/crash-reports/` folder in a file named similar to `crash-20xx-xx-xx_xx.xx.xx-client.txt`.
+      description: "Please copy and paste any crash log output under the `<details>` line below.\n
+      Crash log files are typically found within the `.minecraft/crash-reports/` folder in a file named similar to `crash-20xx-xx-xx_xx.xx.xx-client.txt`.\n
       If there are multiple, make sure to select the one that corresponds to when you crashed (possibly the most recent file)."
       value: "<details>\n"
 
