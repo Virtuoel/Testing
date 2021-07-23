@@ -85,7 +85,7 @@ body:
       label: Full list of installed mods
       description: "What mods were you running at the time? (Make sure to include their version numbers, including the version of this mod!)\n
       (Depending on which mod loader you're using and which launcher you start the game with, sometimes the launcher's logs contain the mod list which can easily be copied and pasted.)"
-      placeholder: "Put your full mod list here! (Or \"None\" if you had absolutely nothing)"
+      placeholder: Put your full mod list here!
     validations:
       required: true
   - type: dropdown
