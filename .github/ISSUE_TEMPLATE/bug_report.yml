@@ -13,8 +13,9 @@ body:
   - type: dropdown
     id: mc_version
     attributes:
-      label: What Minecraft version(s) did you experience this bug on?
-      description: You may select more than one.
+      label: Minecraft version(s)
+      description:  "What Minecraft version(s) did you experience this bug on?\n
+      You may select more than one."
       multiple: true
       options:
         - 1.14.4
@@ -27,8 +28,8 @@ body:
   - type: input
     id: other_mc_version
     attributes:
-      label: Minecraft version (if not in the above list)
-      description: Fill in if you selected `Other` above
+      label: Minecraft version details
+      description: "Fill in if you selected \"Other\" above."
       placeholder: (e.g. 1.17 Snapshot 21w21a, e.g. 1.18 Experimental Snapshot 1)
     validations:
       required: false
@@ -53,9 +54,9 @@ body:
   - type: input
     id: fabric_api_version
     attributes:
-      label: Fabric API version (if applicable)
+      label: Fabric API version
       description: "What Fabric API version (not Fabric Loader) were you using?\n
-      (Fill in if you selected Fabric as your mod loader and a mod you're using requires Fabric API)"
+      (Fill in only if you selected Fabric as your mod loader and a mod you're using requires Fabric API)"
       placeholder: (e.g. Fabric API 0.37.0)
     validations:
       required: false
