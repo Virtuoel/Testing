@@ -10,4 +10,4 @@ body:
   - type: textarea
     id: suggestion
     attributes:
-      label: " "
+      label: "\n"
