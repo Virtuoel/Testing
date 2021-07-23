@@ -67,7 +67,7 @@ body:
         - A singleplayer world opened to LAN that I was connected to
         - A multiplayer server that I was connected to
         - My multiplayer server that I was running
-        - Other (specify below)
+        - "Other (specify in \"What went wrong?\" section)"
     validations:
       required: true
   - type: textarea
