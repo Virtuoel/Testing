@@ -7,10 +7,5 @@ labels: [enhancement]
 assignees:
   - Virtuoel
 body:
-  - type: markdown
-    attributes:
-      value: "Write a title for your suggestion above!\n\n"
   - type: textarea
     id: suggestion
-    attributes:
-      label: What do you want to suggest?
