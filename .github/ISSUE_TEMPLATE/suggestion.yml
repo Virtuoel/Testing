@@ -10,4 +10,4 @@ body:
   - type: textarea
     id: suggestion
     attributes:
-      label: "Type your suggestion below"
+      label: "What is your suggestion?"
