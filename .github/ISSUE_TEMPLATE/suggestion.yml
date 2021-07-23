@@ -9,3 +9,4 @@ assignees:
 body:
   - type: textarea
     id: suggestion
+    label: ""
